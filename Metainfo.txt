@@ -12,7 +12,7 @@ See also: SFEbitreeFDiv, SFEbitreePDiv, SFEbitreeCDiv, SFSbitreeNDiv
 
 Author: Alice Drube
 
-Submitted: Sun, Jan 6, by Alice Drube
+Submitted: Sun, Jan 6 2019, by Alice Drube
 
 Input: 
 - n : Number of Intervals
