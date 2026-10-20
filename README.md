@@ -9,7 +9,7 @@ Name of QuantLet: SFEbitreeKO
 
 Published in: Statistics of Financial Markets
 
-Description: Computes European/American option prices using a binomial tree for the CocaCola (KO) stock with fixed
+Description: Computes European/American option prices using a binomial tree for the CocaCola (KO) stock with fixed amount dividends. This quantlet contains a dataset "KO_Bloomberg" and the full code. Make sure you download the dataset, specify a path and then run the Quantlet.
 
 Keywords: binomial, tree, asset, call, put, option, option-price, european-option, dividends, financial, black-scholes
 
@@ -17,7 +17,7 @@ See also: SFEbitreeFDiv, SFEbitreePDiv, SFEbitreeCDiv, SFSbitreeNDiv
 
 Author: Alice Drube
 
-Submitted: Sun, Jan 6, by Alice Drube
+Submitted: Sun, Jan 6 2019, by Alice Drube
 
 Input: 
 - n : Number of Intervals
@@ -34,7 +34,7 @@ Input:
 
 Output: binomial trees and price of option
 
-Example: User inputs parameters [s0, k, i, sig, t, n, type] like [42.34, 42.5, 0.0125, 0.005, 0.5, 5, 1],
+Example: User inputs parameters [s0, k, i, sig, t, n, type] like [42.34, 42.5, 0.0125, 0.005, 0.5, 5, 1], [flag (1 for call, 0 for put), nodiv, tdiv, pdiv] as [1, 2, 0.25, 0.25, 1, 1], then call price is shown.
 
 ```
 <div align="center">
